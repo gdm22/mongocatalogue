@@ -1,2 +1,2 @@
-{"video":{"server":1,"ip":"http://34.73.226.215/","Name":"Big Buck Bunny","file":"Video/bbb.mp4","thumb":"bbb-th.png","pic":"bbb.png","uuid":"1","category":"animation","category":"movie"}}
-{"video":{"server":2,"ip":"104.196.103.136","Name":"The Launch","file":"Video/The-Launch.mp4","thumb":"The Launch-th.png","pic":"the-Launch.png","uuid":"1","category":"animation","category":"shorts"}}
+{"video":{"server":1,"ip":"http://34.73.226.215/","Name":"Big Buck Bunny","file":"Video/bbb.mp4","thumb":"bbb-th.png","pic":"bbb.jpg","uuid":"1","category":"animation","category":"movie"}}
+{"video":{"server":1,"ip":"http://34.73.226.215/","Name":"Sintel","file":"Video/Sintel.mp4","thumb":"The Launch-th.png","pic":"Sintel.jpg","uuid":"1","category":"animation","category":"shorts"}}
