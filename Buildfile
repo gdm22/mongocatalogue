@@ -4,9 +4,14 @@ docker stop mongodb
 docker rm restheart
 docker rm mongodb
 
-mkdir data
+git clone https://github.com/gdm22/mongocatalogue.git
+ 
+sleep 60
+cd mongocatalogue 
 docker run -d -e MONGO_INITDB_ROOT_USERNAME='restheart' -e MONGO_INITDB_ROOT_PASSWORD='R3ste4rt!'  --name mongodb -v "$PWD/data:/data/db" -v "$PWD/import:/home" mongo:3.6 --bind_ip_all --auth
-sleep 20
+sleep 30
 docker  exec  mongodb mongoimport  -u restheart -p R3ste4rt! --authenticationDatabase admin --db myflix --collection videos --drop --file /home/videos.json
+sleep 5
 docker  exec  mongodb mongoimport  -u restheart -p R3ste4rt! --authenticationDatabase admin --db myflix --collection categories --drop --file /home/categories.json
+sleep 5
 docker run -d -p 80:8080 --name restheart --link mongodb:mongodb softinstigate/restheart
