@@ -1,3 +1,3 @@
-{"video":{"server":1,"ip":"http://34.73.116.57/","Name":"Big Buck Bunny","file":"Video/bbb.mp4","thumb":"bbb.jpg","pic":"bbb.jpg","uuid":"1","category":"animation","category":"movie"}}
-{"video":{"server":1,"ip":"http://34.73.116.57/","Name":"Sintel","file":"Video/Sintel.mp4","thumb":"Sintel.jpg","pic":"Sintel.jpg","uuid":"2","category":"animation","category":"shorts"}}
-{"video":{"server":1,"ip":"http://34.73.116.57/","Name":"TearsOfSteel","file":"Video/TearsOfSteel.mp4","thumb":"TearsOfSteel.jpg","pic":"TearsOfSteel.jpg","uuid":"3","category":"animation","category":"shorts"}}
+{"video":{"server":1,"ip":"http://34.73.116.57/","Name":"Big Buck Bunny","file":"Video/bbb.mp4","thumb":"Pict/bbb.jpg","pic":"Pict/bbb.jpg","uuid":"1","category":"animation","category":"movie"}}
+{"video":{"server":1,"ip":"http://34.73.116.57/","Name":"Sintel","file":"Video/Sintel.mp4","thumb":"Pict/Sintel.jpg","pic":"Pict/Sintel.jpg","uuid":"2","category":"animation","category":"shorts"}}
+{"video":{"server":1,"ip":"http://34.73.116.57/","Name":"TearsOfSteel","file":"Video/TearsOfSteel.mp4","thumb":"Pict/TearsOfSteel.jpg","pic":"Pict/TearsOfSteel.jpg","uuid":"3","category":"animation","category":"shorts"}}
